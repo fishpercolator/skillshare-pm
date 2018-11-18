@@ -23,6 +23,9 @@
     background: none;
     box-shadow: none;
   }
+  img.smaller {
+    max-height: 400px;
+  }
   img.logo {
     @extend img.borderless;
     max-height: 3em;
