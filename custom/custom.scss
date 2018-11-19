@@ -17,6 +17,9 @@
     &.less {
       height: 400px;
     }
+    &.evenless {
+      height: 300px;
+    }
   }
   img.borderless {
     border: none;
@@ -57,9 +60,9 @@
   ul.questions {
     display: flex;
     flex-wrap: wrap;
+    margin: 0;
     li {
       list-style-type: none;
-      margin: 0 0;
       padding: 20px 0;
       width: 33%;
       text-align: center;
